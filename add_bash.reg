@@ -1,0 +1,32 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\bash]
+@="Open Bash window here"
+"Extended"=""
+"Icon"="%USERPROFILE%\\AppData\\Local\\lxss\\bash.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Bash\command]
+@="bash.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Bash]
+@="Open Bash window here"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Bash\command]
+@="bash.exe"
+
+[HKEY_CLASSES_ROOT\Drive\shell\Bash]
+@="Open Bash window here"
+"Extended"=""
+"Icon"="%USERPROFILE%\\AppData\\Local\\lxss\\bash.ico"
+
+[HKEY_CLASSES_ROOT\Drive\shell\Bash\command]
+@="bash.exe"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\Bash]
+@="Open Bash window here"
+"Extended"=""
+"Icon"="%USERPROFILE%\\AppData\\Local\\lxss\\bash.ico"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\Bash\command]
+@="bash.exe"
